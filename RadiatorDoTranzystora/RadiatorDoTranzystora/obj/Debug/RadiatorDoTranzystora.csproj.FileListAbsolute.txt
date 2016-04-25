@@ -1,0 +1,9 @@
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\bin\Debug\RadiatorDoTranzystora 1.0.exe.config
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\bin\Debug\RadiatorDoTranzystora 1.0.exe
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\bin\Debug\RadiatorDoTranzystora 1.0.pdb
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\obj\Debug\RadiatorDoTranzystora.Form111.resources
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\obj\Debug\RadiatorDoTranzystora.HelpForm.resources
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\obj\Debug\RadiatorDoTranzystora.Properties.Resources.resources
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\obj\Debug\RadiatorDoTranzystora.csproj.GenerateResource.Cache
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\obj\Debug\RadiatorDoTranzystora 1.0.exe
+D:\Desktop\Dropbox\=Wynalazki Kuby Miszcza\Radiator do Tranzystora\RadiatorDoTranzystora\RadiatorDoTranzystora\obj\Debug\RadiatorDoTranzystora 1.0.pdb
