@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("RadiatorDoTranzystora")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Acer")]
+[assembly: AssemblyCompany("Grzybownia")]
 [assembly: AssemblyProduct("RadiatorDoTranzystora")]
-[assembly: AssemblyCopyright("Copyright © Acer 2016")]
+[assembly: AssemblyCopyright("Copyright © Kuba Miscz 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

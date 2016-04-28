@@ -73,6 +73,11 @@ namespace RadiatorDoTranzystora
 
         }
 
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void tbP_TextChanged(object sender, EventArgs e)
         {
             obliczP();
@@ -99,7 +104,7 @@ namespace RadiatorDoTranzystora
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            tb2val();
+            
             toolTip1.SetToolTip(tbTamb, "max przewidywana Temp otoczenia");
             toolTip1.SetToolTip(tbU, "napiecie");
             toolTip1.SetToolTip(tbJ, "prad");
@@ -121,7 +126,9 @@ namespace RadiatorDoTranzystora
             toolTip1.SetToolTip(label6, "Rth radiatora, z katalogu albo na stronie sklepu znajdz poodbny i odczytaj");
             toolTip1.SetToolTip(label8, "Rth calkowite");
             toolTip1.SetToolTip(label9, "wyliczona Temp złącza");
-
+            tb2val();
+            P = U * J;
+            val2tb();
 
         }
 
@@ -136,7 +143,17 @@ namespace RadiatorDoTranzystora
         {
             tb2val();
             Rth = Rthjc + Rthcs + Rthsa;
-            Tj = P * Rth;
+            Tj = Tamb+ P * Rth;
+            if (Tj < Tjmax)
+            {
+                pictureBox1.Image = RadiatorDoTranzystora.Properties.Resources.ok;
+                tbTj.BackColor = Color.PeachPuff;
+            }
+            else
+            {
+                pictureBox1.Image = RadiatorDoTranzystora.Properties.Resources.error;
+                tbTj.BackColor = Color.Red;
+            }
             val2tb();
         }
 
