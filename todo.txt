@@ -4,3 +4,5 @@ dopisac jednostki
 jak za malo to na czerowno i ikonka eror jak nie to zielono i ok
 zmiana przecinka na kropke
 jak zle dane to czerowono - tekstowe
+zmiana autora z grzybownia na kubamiszcz
+okienko helpu na srodku ekrany
