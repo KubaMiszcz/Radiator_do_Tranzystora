@@ -160,22 +160,22 @@ namespace RadiatorDoTranzystora
 
         void tb2val()
         {
-            Tjmax = float.Parse(tbTjmax.Text);
-            Tamb = float.Parse(tbTamb.Text);
-            U = float.Parse(tbU.Text);
-            J = 0.001f * float.Parse(tbJ.Text);
+            Tjmax = float.Parse(tbTjmax.Text, System.Globalization.CultureInfo.InvariantCulture);
+            Tamb = float.Parse(tbTamb.Text, System.Globalization.CultureInfo.InvariantCulture);
+            U = float.Parse(tbU.Text, System.Globalization.CultureInfo.InvariantCulture);
+            J = 0.001f * float.Parse(tbJ.Text, System.Globalization.CultureInfo.InvariantCulture);
             //P = float.Parse(tbP.Text);
-            Rthjc = float.Parse(tbRthjc.Text);
-            Rthcs = float.Parse(tbRthcs.Text);
-            Rthsa = float.Parse(tbRthsa.Text);
+            Rthjc = float.Parse(tbRthjc.Text, System.Globalization.CultureInfo.InvariantCulture);
+            Rthcs = float.Parse(tbRthcs.Text, System.Globalization.CultureInfo.InvariantCulture);
+            Rthsa = float.Parse(tbRthsa.Text, System.Globalization.CultureInfo.InvariantCulture);
             //Rth = float.Parse(tbRth.Text);
         }
 
         void val2tb()
         {
-            tbP.Text = P.ToString();
-            tbRth.Text = Rth.ToString();
-            tbTj.Text = Tj.ToString();
+            tbP.Text = P.ToString(System.Globalization.CultureInfo.InvariantCulture);
+            tbRth.Text = Rth.ToString(System.Globalization.CultureInfo.InvariantCulture);
+            tbTj.Text = Tj.ToString(System.Globalization.CultureInfo.InvariantCulture);
         }
     }
 }
